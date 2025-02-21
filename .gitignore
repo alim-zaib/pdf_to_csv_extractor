@@ -1,0 +1,11 @@
+# ignore pyinstaller output
+dist/
+build/
+*.spec
+
+# ignore system files
+.DS_Store
+Thumbs.db
+
+# ignore virtual environments
+venv/

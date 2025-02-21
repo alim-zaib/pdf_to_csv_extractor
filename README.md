@@ -1,11 +1,11 @@
 ### pdf to csv converter (bespoke)
 
 ## installation
-1️⃣ if using windows:
+if using windows:
    - double-click `install.bat` (installs necessary files)
    - double-click `DataExtractor.exe` (opens the tool)
 
-2️⃣ if using mac/linux:
+if using mac/linux:
    - open a terminal
    - run `pip install -r requirements.txt`
    - run `python DataExtractor.py`

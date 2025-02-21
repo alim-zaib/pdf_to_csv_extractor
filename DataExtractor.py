@@ -36,8 +36,9 @@ def extract_helaa_ref(text):
 
 def extract_conclusion_comments(text):
     """finds the 'conclusion' section and extracts the following 'comments'"""
-    match = re.search(r"Conclusion.*?Comments\s*\n([\s\S]+)", text, re.IGNORECASE)
+    match = re.search(r"Conclusion.*?\nComments\s*\n(.+)", text, re.IGNORECASE | re.DOTALL)
     return match.group(1).strip() if match else "N/A"
+
 
 def process_extracted_text(text, output_csv):
     """processes extracted text and writes formatted data to csv"""

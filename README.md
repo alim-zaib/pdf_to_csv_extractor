@@ -1,4 +1,4 @@
-### pdf to csv converter - user guide
+### pdf to csv converter (bespoke)
 
 ## installation
 1️⃣ if using windows:
